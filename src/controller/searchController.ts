@@ -1,6 +1,10 @@
 import { Request, Response } from 'express';
 import ytmusic from '../configs/ytmusic';
-
+import path from 'path';
+import rootDir from '../rootDir';
+const serveSearch = async (req: Request, res: Response) => {
+  res.sendFile(path.join(rootDir, 'public', 'search.html'));
+};
 const search = async (req: Request, res: Response) => {
   const q = req.query.q;
   try {
@@ -11,4 +15,4 @@ const search = async (req: Request, res: Response) => {
   }
 };
 
-export { search };
+export { search, serveSearch };

@@ -7,7 +7,7 @@ const express_1 = __importDefault(require("express"));
 const routes_1 = __importDefault(require("./routes"));
 const cors_1 = __importDefault(require("cors"));
 const path_1 = __importDefault(require("path"));
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 const app = (0, express_1.default)();
 app.use(express_1.default.static(path_1.default.join(__dirname, 'public')));
 app.use(routes_1.default);

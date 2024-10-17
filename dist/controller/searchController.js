@@ -12,8 +12,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.search = void 0;
+exports.serveSearch = exports.search = void 0;
 const ytmusic_1 = __importDefault(require("../configs/ytmusic"));
+const path_1 = __importDefault(require("path"));
+const rootDir_1 = __importDefault(require("../rootDir"));
+const serveSearch = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    res.sendFile(path_1.default.join(rootDir_1.default, 'public', 'search.html'));
+});
+exports.serveSearch = serveSearch;
 const search = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const q = req.query.q;
     try {
