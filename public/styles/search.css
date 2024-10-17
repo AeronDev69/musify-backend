@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8)),
+    url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask2379%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient2380%26quot%3b)'%3e%3c/rect%3e%3cpath d='M1512 560L0 560 L0 285.23Q39.13 204.37%2c 120 243.5Q168.34 219.84%2c 192 268.18Q258.43 262.61%2c 264 329.04Q292.62 285.66%2c 336 314.28Q378.75 237.02%2c 456 279.77Q499.72 251.49%2c 528 295.21Q604.83 252.03%2c 648 328.86Q683.81 244.67%2c 768 280.48Q812.34 204.82%2c 888 249.17Q947.57 236.74%2c 960 296.3Q1036.08 252.38%2c 1080 328.46Q1109.69 238.15%2c 1200 267.84Q1242.71 238.55%2c 1272 281.27Q1315.62 204.89%2c 1392 248.51Q1492.91 229.42%2c 1512 330.33z' fill='%23182f5d'%3e%3c/path%3e%3cpath d='M1512 560L0 560 L0 371.11Q63.94 315.05%2c 120 378.99Q126.44 313.43%2c 192 319.86Q257.97 265.83%2c 312 331.8Q360.11 307.91%2c 384 356.02Q455.03 307.05%2c 504 378.09Q555.36 357.44%2c 576 408.8Q607.27 320.07%2c 696 351.34Q720.52 303.87%2c 768 328.39Q850.11 290.5%2c 888 372.6Q940.74 353.34%2c 960 406.08Q983.76 309.85%2c 1080 333.61Q1160.01 293.62%2c 1200 373.63Q1245.18 298.81%2c 1320 344Q1408.25 312.25%2c 1440 400.51Q1490.2 378.72%2c 1512 428.92z' fill='%2325467d'%3e%3c/path%3e%3cpath d='M1488 560L0 560 L0 428.09Q54.25 410.34%2c 72 464.59Q122.39 442.98%2c 144 493.37Q156.31 433.69%2c 216 446Q246.59 404.59%2c 288 435.17Q309.91 385.08%2c 360 406.98Q402.38 377.37%2c 432 419.75Q505.3 373.05%2c 552 446.35Q625.08 399.43%2c 672 472.51Q710.64 391.15%2c 792 429.8Q811.98 377.77%2c 864 397.75Q934.14 347.89%2c 984 418.03Q1029.49 391.51%2c 1056 437Q1129.38 390.38%2c 1176 463.76Q1182.89 398.65%2c 1248 405.54Q1314.9 352.44%2c 1368 419.34Q1456.14 387.48%2c 1488 475.62z' fill='%23356cb1'%3e%3c/path%3e%3cpath d='M1488 560L0 560 L0 514.21Q63.63 505.85%2c 72 569.48Q141.01 518.5%2c 192 587.51Q209.06 532.57%2c 264 549.62Q311.22 476.84%2c 384 524.05Q410.31 478.36%2c 456 504.66Q546.76 475.43%2c 576 566.19Q619.11 537.3%2c 648 580.4Q679.34 491.74%2c 768 523.07Q782.46 465.53%2c 840 479.98Q912.71 432.69%2c 960 505.4Q1043.68 469.08%2c 1080 552.76Q1100.86 501.62%2c 1152 522.48Q1239.38 489.86%2c 1272 577.24Q1274.7 507.94%2c 1344 510.65Q1368.72 463.37%2c 1416 488.08Q1457.18 457.26%2c 1488 498.44z' fill='white'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask2379'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='50%25' y1='0%25' x2='50%25' y2='100%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient2380'%3e%3cstop stop-color='rgba(1%2c 2%2c 4%2c 1)' offset='0.27'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 69%2c 158%2c 1)' offset='0.61'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 69%2c 158%2c 1)' offset='0.73'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 69%2c 158%2c 1)' offset='0.87'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 69%2c 158%2c 1)' offset='0.91'%3e%3c/stop%3e%3cstop stop-color='rgba(36%2c 85%2c 149%2c 1)' offset='0.96'%3e%3c/stop%3e%3cstop stop-color='%2300459e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 6);
+  height: 30px;
+}
+.nav-bar h1 {
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  font-family: monospace;
+}
+#musify {
+  margin-right: 10px;
+  color: rgb(168, 20, 20);
+}
+#img-profile {
+  border-radius: 100%;
+  height: 50px;
+  cursor: pointer;
+}
+.search-bar {
+  cursor: pointer;
+}
+#search-icon {
+  font-size: 20px;
+  color: white;
+  margin-right: 10px;
+}
+#search {
+  height: 30px;
+  color: white;
+  border: 1px solid gray;
+  padding: 10px;
+  background: transparent;
+  font-size: 20px;
+  width: 500px;
+  border-radius: 50px;
+}
+.results {
+  margin: 0 auto;
+  width: 700px;
+  height: 100%;
+}
+#artist {
+  height: 150px;
+  width: 150px;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+.artist h2 {
+  color: white;
+}
+.artist h3 {
+  color: gray;
+}
+hr {
+  width: 150px;
+  margin: 5px 0 5px 0;
+  color: gray;
+  opacity: 30%;
+}
+.artist h2,
+h3 {
+  width: 150px;
+  font-size: 15px;
+}
+.title {
+  padding: 5px 0 5px 0;
+  width: 150px;
+  border-radius: 5px;
+}
+h3 span {
+  color: bisque;
+}

@@ -3,6 +3,6 @@ import { auth } from '../controller/authController';
 
 const authRoute = Router();
 
-authRoute.get('/auth/google', auth);
+authRoute.get('/api/auth/google', auth);
 
 export default authRoute;
